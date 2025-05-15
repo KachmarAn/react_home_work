@@ -1,21 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class SmileItem extends Component {
-    handleClick = () => {
-        this.props.onVote(this.props.smile.id);
-    };
-
-    render() {
-        const {smile, votes} = this.props.smile;
-        return (
-            <div className="smile-item">
-                {smile} – {votes} голосів
-                <button className="vote-button" onClick={this.handleClick}>
-                    Голосувати
-                </button>
-            </div>
-        );
-    }
-}
+const SmileItem = ({ smile, onVote }) => {
+    return (
+        <div className="smile-item">
+            {smile.smile} – {smile.votes} голосів
+            <button className="vote-button" onClick={() => onVote(smile.id)}>
+                Голосувати
+            </button>
+        </div>
+    );
+};
 
 export default SmileItem;
