@@ -58,3 +58,158 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+body.light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body.dark {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.header.light {
+    background-color: #ddd;
+    color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header.dark {
+    background-color: #222;
+    color: #eee;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer.light {
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer.dark {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.smile-app.light {
+    padding: 20px;
+}
+
+.smile-app.dark {
+    padding: 20px;
+}
+
+.smile-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.smile-item.light {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smile-item.dark {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vote-button.light {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vote-button.dark {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button.light {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.action-button.dark {
+    background-color: #1e7e34;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.result-text.light {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.result-text.dark {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+.theme-switcher.light {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-switcher.dark {
+    background-color: #adb5bd;
+    color: #212529;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions {
+    margin-bottom: 20px;
+}

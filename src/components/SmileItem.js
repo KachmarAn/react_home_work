@@ -1,10 +1,13 @@
 import React from 'react';
+import {useTheme} from '../contexts/ThemeContext';
 
-const SmileItem = ({ smile, onVote }) => {
+const SmileItem = ({smile, onVote}) => {
+    const {theme} = useTheme();
+
     return (
-        <div className="smile-item">
+        <div className={`smile-item ${theme}`}>
             {smile.smile} – {smile.votes} голосів
-            <button className="vote-button" onClick={() => onVote(smile.id)}>
+            <button className={`vote-button ${theme}`} onClick={() => onVote(smile.id)}>
                 Голосувати
             </button>
         </div>
