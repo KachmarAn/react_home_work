@@ -213,3 +213,14 @@ body.dark {
 .actions {
     margin-bottom: 20px;
 }
+.smile-app-title.light {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.smile-app-title.dark {
+    color: #f4f4f4;
+    text-align: center;
+    margin-bottom: 20px;
+}
