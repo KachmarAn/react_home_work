@@ -1,0 +1,254 @@
+.todo-page {
+    background-color: var(--page-bg-color);
+    color: var(--page-text-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.todo-page.light {
+    background-color: #fff;
+    color: #333;
+}
+
+.todo-page.dark {
+    background-color: #3b3f46;
+    color: #e0e0e0;
+}
+
+.todo-title-page {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
+
+.todo-title-page.dark {
+    color: #61dafb;
+}
+
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #f0f0f0;
+}
+
+.todo-form.light {
+    background-color: #f0f0f0;
+}
+
+.todo-form.dark {
+    background-color: #4a4e55;
+}
+
+.new-todo-input {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+    color: #333;
+}
+
+.new-todo-input.dark {
+    background-color: #333;
+    border-color: #666;
+    color: #e0e0e0;
+}
+
+.add-todo-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.add-todo-button.dark {
+    background-color: #1e7e34;
+}
+
+.add-todo-button:hover {
+    background-color: #218838;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.todo-item.light {
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #333;
+}
+
+.todo-item.dark {
+    background-color: #555;
+    border: 1px solid #666;
+    color: #e0e0e0;
+}
+
+.todo-checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #007bff;
+}
+
+.todo-checkbox.dark {
+    accent-color: #61dafb;
+}
+
+.todo-title {
+    flex-grow: 1;
+    font-size: 1.1rem;
+    word-break: break-word;
+    cursor: pointer;
+}
+
+.todo-title.dark {
+    color: #e0e0e0;
+}
+
+.edit-input {
+    flex-grow: 1;
+    padding: 8px 12px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: white;
+    color: #333;
+}
+
+.edit-input.dark {
+    background-color: #333;
+    border-color: #61dafb;
+    color: #e0e0e0;
+}
+
+.edit-button,
+.delete-button,
+.save-button,
+.cancel-button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    margin-left: 5px;
+}
+
+.edit-button {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.edit-button.dark {
+    background-color: #e0a800;
+}
+
+.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-button.dark {
+    background-color: #c82333;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.save-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.save-button.dark {
+    background-color: #0056b3;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.cancel-button.dark {
+    background-color: #545b62;
+}
+
+.cancel-button:hover {
+    background-color: #545b62;
+}
+
+.loading-message,
+.error-message,
+.no-todos {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.loading-message.light {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.loading-message.dark {
+    background-color: #4a4e55;
+    color: #ced4da;
+}
+
+.error-message.light {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.error-message.dark {
+    background-color: #721c24;
+    color: #f8d7da;
+    border: 1px solid #721c24;
+}
+
+.no-todos.light {
+    background-color: #e2f0e2;
+    color: #218838;
+}
+
+.no-todos.dark {
+    background-color: #218838;
+    color: #e2f0e2;
+}
