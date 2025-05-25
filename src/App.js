@@ -6,6 +6,7 @@ import HomePage from './pages/Home/Home';
 import ContactsPage from './pages/Contacts/Contacts';
 import AboutPage from './pages/About/About';
 import TodoPage from './pages/Todo/Todo';
+import CounterPage from './pages/Counter/Counter';
 import './styles.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                         <Route path="/contacts" element={<ContactsPage/>}/>
                         <Route path="/about" element={<AboutPage/>}/>
                         <Route path="/todo" element={<TodoPage/>}/>
+                        <Route path="/counter" element={<CounterPage/>}/>
                     </Routes>
                 </main>
                 <Footer/>

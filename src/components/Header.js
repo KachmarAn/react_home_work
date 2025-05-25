@@ -15,6 +15,7 @@ function Header() {
                     <li><Link to="/contacts" className={`${theme}`}>Контакти</Link></li>
                     <li><Link to="/about" className={`${theme}`}>Про мене</Link></li>
                     <li><Link to="/todo" className={`${theme}`}>Todo</Link></li>
+                    <li><Link to="/counter" className={`${theme}`}>Counter</Link></li>
                 </ul>
             </nav>
             <ThemeSwitcher/>

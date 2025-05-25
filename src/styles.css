@@ -274,3 +274,70 @@ body.dark {
     background-color: #222;
     color: #eee;
 }
+.counter {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.counter h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.counter-display {
+    margin: 20px 0;
+}
+
+.count-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50;
+    display: inline-block;
+    min-width: 80px;
+}
+
+.counter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.counter-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.counter-btn.increment {
+    background-color: #27ae60;
+    color: white;
+}
+
+.counter-btn.increment:hover {
+    background-color: #2ecc71;
+    transform: scale(1.1);
+}
+
+.counter-btn.decrement {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.counter-btn.decrement:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
+
+.counter-btn:active {
+    transform: scale(0.95);
+}
