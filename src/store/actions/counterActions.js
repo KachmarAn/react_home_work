@@ -2,10 +2,9 @@ import {
     INCREMENT,
     DECREMENT,
     INCREMENT_BY_AMOUNT,
-    RESET
 } from "./actionTypes";
 
-//Action creators
+
 export const increment = () => ({type: INCREMENT});
 export const decrement = () => ({type: DECREMENT});
 export const incrementByAmount = (amount) => {
@@ -14,4 +13,3 @@ export const incrementByAmount = (amount) => {
         payload: amount
     }
 };
-export const reset = () => ({type: RESET});

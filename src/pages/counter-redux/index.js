@@ -5,7 +5,6 @@ import {
     increment,
     decrement,
     incrementByAmount,
-    reset,
 } from "../../store/actions/counterActions";
 
 export default function CounterRedux() {
