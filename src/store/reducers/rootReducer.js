@@ -1,9 +1,10 @@
 import { combineReducers } from "redux";
-
 import counterReducer from "./counterReducer";
+import { todoReducer } from "./todoReducers.js";
 
 const rootReducer = combineReducers({
-    counter: counterReducer,
-   });
+  counter: counterReducer,
+  todo: todoReducer,
+});
 
 export default rootReducer;

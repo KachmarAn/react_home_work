@@ -14,7 +14,7 @@ function Header() {
                     <li><Link to="/" className={`${theme}`}>Головна</Link></li>
                     <li><Link to="/contacts" className={`${theme}`}>Контакти</Link></li>
                     <li><Link to="/about" className={`${theme}`}>Про мене</Link></li>
-                    {/*<li><Link to="/todo" className={`${theme}`}>Todo</Link></li>*/}
+                    <li><Link to="/todo-redux" className={`${theme}`}>Todo</Link></li>
                     <li><Link to="/counter-redux" className={`${theme}`}>Counter</Link></li>
                 </ul>
             </nav>
